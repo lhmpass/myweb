@@ -1,0 +1,28 @@
+{
+  "name": "ronggui-zhiqi",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "戎归·智启 —— 面向退役复学大学生的 AI 成长服务平台",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "build:standalone": "node scripts/build-standalone.mjs && node scripts/inline.mjs"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "pinia": "^2.3.1",
+    "element-plus": "^2.9.3",
+    "@element-plus/icons-vue": "^2.3.1",
+    "echarts": "^5.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
